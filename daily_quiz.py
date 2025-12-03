@@ -10,7 +10,7 @@ GEMINI_API_KEY = os.environ.get("AIzaSyByHQSobwbh6GjOlZoE2D_MfcN0EqLR2CI")
 CHANNEL_ID = os.environ.get("1087968824")
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 async def main():
     print("--- Fetching News ---")
