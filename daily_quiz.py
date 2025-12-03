@@ -7,7 +7,7 @@ from telegram import Bot
 
 # Load secrets
 BOT_TOKEN = os.environ.get("8590363689:AAHpCG0g-Dvw7oShRzmVfsJoJR753kNxO7A")
-GEMINI_API_KEY = os.environ.get("AIzaSyByHQSobwbh6GjOlZoE2D_MfcN0EqLR2CI")
+GEMINI_API_KEY = os.environ.get("AIzaSyBXyU5to9p8h6AggQamhhpcpH7OhW_zsa0")
 TARGET_CHAT_ID = os.environ.get("1087968824") 
 
 async def get_gemini_response(prompt):
