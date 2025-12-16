@@ -11,7 +11,7 @@ GEMINI_API_KEY = "AIzaSyAueWAidi_vY-5JhegkBjk22N0-v1eWq7g"
 TARGET_CHAT_ID = os.environ.get("1087968824") 
 
 async def get_gemini_response(prompt):
-    # DIRECT API CALL (No Library)
+    # DIRECT API CALL ()
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={GEMINI_API_KEY}"
     headers = {'Content-Type': 'application/json'}
     data = {
